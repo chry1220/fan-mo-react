@@ -45,7 +45,7 @@ export default function SuperRare() {
       <div className="title-container">
         <h2 className="title">Enhanced Productivity</h2>
         <p className="description">
-        Boost your productivity with features like split-screen multitasking and customizable display settings <a href="#">OpenSea</a>.
+        Boost your productivity with features like split-screen multitasking and customizable display settings 
         </p>
       </div>
       <div className="cards">

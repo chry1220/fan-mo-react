@@ -8,7 +8,7 @@ export default function Like() {
       <div className="container">
         <div className="content">
           <div className="image">
-            <img src={eth1} alt="eth1" />
+            <img src={eth1} alt="eth1"  width={50} height={50}/>
           </div>
           <h2 className="title">Experience the Future of Visual Excellence</h2>
           <p className="description">
@@ -20,7 +20,7 @@ export default function Like() {
         </div>
         <div className="content">
           <div className="image">
-            <img src={eth2} alt="eth2" />
+            <img src={eth2} alt="eth2" width={50} height={50}/>
           </div>
           <h2 className="title">Limited Time Offer</h2>
           <p className="description">

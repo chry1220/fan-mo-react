@@ -3,6 +3,7 @@ import Card from "./Card";
 import icon from "../assets/icon.png";
 import super1 from "../assets/super1.png";
 import release2 from "../assets/release2.png";
+import logo from "../assets/logo.png";
 
 export default function Free() {
   return (
@@ -14,7 +15,7 @@ export default function Free() {
         </div>
         <div className="content">
           <div className="image">
-            <img src={icon} alt="icon" />
+            <img src={logo} alt="icon" />
           </div>
           <h2 className="title">Sleek, Modern Design</h2>
           <p className="description">

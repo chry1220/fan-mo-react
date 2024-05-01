@@ -38,12 +38,13 @@
       position: relative;
       overflow: hidden;
       text-align: center;
+      padding: 40px;
       z-index: 1;
       display: flex;
       justify-content: center;
       align-items: flex-end;
       img {
-        height: 24rem;
+        height: 20rem;
       }
       .ellipse {
         z-index: -1;
@@ -70,6 +71,9 @@
           height: 14rem;
         }
       }
+      .card {
+        background-color: transparent;
+      }
       .ellipse {
         z-index: -1;
         position: absolute;
@@ -85,7 +89,7 @@
     }
   }
   .lightblue {
-    background-color: #00ff91;
+    background-color: #00fff7;
   }
   .blue {
     background-color: #00fff7;

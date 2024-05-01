@@ -9,10 +9,6 @@ export default function Footer() {
       data: ["About", "Terms", "Legal"],
     },
     {
-      title: "NFT",
-      data: ["OpenSea", "Maker", "Learn"],
-    },
-    {
       title: "Contact",
       data: ["Press", "Support"],
     },
@@ -56,7 +52,7 @@ export default function Footer() {
         </div>
       </div>
       <div className="lower">
-        <span>&copy; Copyright 2022 NFT</span>
+        <span>&copy; Copyright 2022 FanMo</span>
         <span>Launching August 2022</span>
       </div>
     </footer>

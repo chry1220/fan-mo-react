@@ -4,7 +4,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     font-size: 32px;
-    .content {
+    .image-container {
       margin-top: 3rem;
       display: flex;
       flex-direction: column;
@@ -44,7 +44,7 @@
         }
       }
     }
-    .image-container {
+    .content {
       text-align: center;
       position: relative;
       z-index: 10;

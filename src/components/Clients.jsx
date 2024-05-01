@@ -8,15 +8,12 @@ import clients5 from "../assets/clients5.png";
 export default function Clients() {
   const data = [clients1, clients2, clients3, clients4, clients5];
   return (
-    <div className="clients">
-      <div className="container">
-        <div className="clients-container">
-          {data.map((client, index) => (
-            <div className="client" key={index}>
-              <img src={client} alt="client" />
-            </div>
-          ))}
-        </div>
+    <div className="client-container">
+      <div className="head">
+        <h1>We Design,< br /> We Create</h1>
+        {/* <div>
+          <p>That's why the VisionX Pro comes equipped with advanced eye care technology, including blue light filters and flicker-free performance, to reduce eye strain and fatigue during extended use.</p>
+        </div> */}
       </div>
     </div>
   );
